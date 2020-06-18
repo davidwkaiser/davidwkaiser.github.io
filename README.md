@@ -1,5 +1,8 @@
 # How to run this app locally
 
+## download the repo
+`git clone git@ghe.fyiblue.com:I371030/DialogFlowRepo.git`
+
 ## install a Flask server
 `pip install Flask`
 

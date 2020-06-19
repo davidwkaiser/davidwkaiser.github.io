@@ -1,3 +1,9 @@
+## How to view this app at GitHub Pages
+
+Open your browser to [THIS PAGE](https://ghe.fyiblue.com/pages/I371030/DialogFlowRepo/)
+
+
+
 ## How to run this app locally
 
 ### download the repo
@@ -13,5 +19,3 @@
 ### load the page
 go to 'http://127.0.0.1:5000/ '
 
-## How to view this app at GitHub Pages
-open your browser to [THIS PAGE](https://ghe.fyiblue.com/pages/I371030/DialogFlowRepo/)

@@ -11,9 +11,14 @@
 		<div class="frame">
 		<h1 style="font-size:4vw">Member Services Bot</h1>
 			<div>
-<!-- 				<p><a href="/assistant">Click here to try Google Assistant.</a></p>
- -->				<p><a href="/iframe">Click here to try DialogFlow in an iframe.</a></p>
-				<p><a href="/messenger">Click here to try DialogFlow Messenger.</a></p>
+				<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+				<df-messenger
+				  chat-icon="https://storage.googleapis.com/cloudprod-apiai/ab21985a-39d2-4e35-b5f2-5e11a088ddd9_x.png"
+				  intent="WELCOME"
+				  chat-title="MemberServicesBot"
+				  agent-id="18e949d7-1e21-4339-9cd9-f57c657e96c6"
+				  language-code="en">
+				</df-messenger>
 			</div>
 			</p>
 			<div class="team">

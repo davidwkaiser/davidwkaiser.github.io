@@ -18,3 +18,7 @@ def messenger():
 # @app.route('/assistant')
 # def assistant():
 #     return render_template("assistant.html")   
+
+@app.route('/covid')
+def covid():
+	return render_template("covid.html")

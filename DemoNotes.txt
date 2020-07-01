@@ -1,0 +1,33 @@
+Demo of Member Services Bot
+
+check claims
+	- needs a claim number and subscriber number pair
+		* 1111 & 1234
+		* 2222 & 5678
+		* 3333 & 9009
+		* any other combo should be invalid, bot back-end will verify
+	- make sure that heroku mock claims API is warmed up!
+
+password reset
+	- email
+		* a one-time password is sent to the email of record, good for 15 minutes
+		* input into bot
+		* must match, must not be expired, bot back-end will verify
+		* a notification email is sent
+	- text
+		* same as email, but sent to phone via text message
+
+make a payment
+	- needs a subscriber number 
+		* 12345
+		* 23456
+		* 34567
+		* 45678
+		* 56789
+	- will present your balance and ask if you want to make a payment
+		* if yes, it will ask how much you wish to pay
+		* it will ask for a 16 digit credit card, and an expiration date. 
+		* both of the above are validated with regular expressions
+		* it will subtract the payment amount from the balance. 
+		* this new amount will remain in memory until the bot is restarted
+		* if you do not want to make a payment, it will wish you a nice day
